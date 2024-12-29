@@ -10,13 +10,13 @@ This repository contains a simple local multiplayer prototype using a Python Web
 ## 1. Install Dependencies
 
 ```bash
-pip install -r requirements.txt
+pip install -r server/requirements.txt
 ```
 
 ## 2. Run the Server
 
 ```bash
-python server.py
+python server/server.py
 ```
 You should see a message indicating the server started on `ws://0.0.0.0:6789`.
 

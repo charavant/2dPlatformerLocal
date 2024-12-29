@@ -1,4 +1,4 @@
-const serverUrl = "ws://localhost:6789"; // Adjust if running on a different IP/port
+const serverUrl = "ws://localhost:6790"; // Adjust if running on a different IP/port
 let socket;
 let gameState = {};
 

@@ -56,8 +56,8 @@ async def broadcast_state():
         ])
 
 async def main():
-    async with websockets.serve(handler, "0.0.0.0", 6789):
-        print("Server started on ws://0.0.0.0:6789")
+    async with websockets.serve(handler, "0.0.0.0", 6790):
+        print("Server started on ws://0.0.0.0:6790")
         await asyncio.Future()  # run forever
 
 if __name__ == "__main__":
